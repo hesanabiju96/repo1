@@ -1,0 +1,6 @@
+.cart-summary {
+    text-align: right;
+    margin-left: 0;
+    align-self: flex-end;
+    justify-content: flex-end;
+}

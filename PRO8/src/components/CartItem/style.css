@@ -1,0 +1,28 @@
+.cart-item {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    flex: 1;
+}
+
+.item-details h4 {
+    margin: 0;
+}
+
+.item-details p {
+    line-height: 1.8;
+    margin: 0;
+}
+
+.product-image {
+    width: 120px;
+    object-fit: cover;
+}

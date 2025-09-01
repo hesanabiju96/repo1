@@ -1,0 +1,22 @@
+.cart-summary {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .cart-summary {
+        width: 28%;
+    }
+}
+
+.summary-details p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.summary-details h3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
